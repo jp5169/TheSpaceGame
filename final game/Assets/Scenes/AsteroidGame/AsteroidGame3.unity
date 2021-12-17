@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d6a0fd1ceba4aa5ad539f2e67d0c06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Main
+  NextScene: Main3
 --- !u!81 &1671699055
 AudioListener:
   m_ObjectHideFlags: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   decoy: {fileID: 8505338729492938858, guid: b66e141bdc92d4a46aa8d7e17001791a, type: 3}
   target: {fileID: 4982020947194561101, guid: 6925ad11b7a6b4b66a9a23c10556e98f, type: 3}
-  amount: 75
+  amount: 50
 --- !u!4 &1799752801
 Transform:
   m_ObjectHideFlags: 0

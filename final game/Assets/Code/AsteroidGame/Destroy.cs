@@ -21,8 +21,12 @@ public class Destroy : MonoBehaviour
                     if (SceneManager.GetActiveScene().name == "AsteroidGame3")
                     {
                         Destroy(hit.collider.gameObject);
-                        SceneManager.LoadScene(NextScene);
+                        SceneManager.LoadScene("Main3");
                         PublicVars.engineHealth = 100f;
+                        PublicVars.boosterLowHealth = 100f;
+                        PublicVars.boosterUpHealth = 100f;
+                        PublicVars.blasterUpHealth = 100f;
+                        PublicVars.boosterLowHealth = 100f;
                     }
                     else
                     {

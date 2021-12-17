@@ -61,6 +61,8 @@ public class WinText : MonoBehaviour
         {
             var dialogTexts = new List<DialogData>();
 
+            SceneManager.LoadScene("TitleMenu");
+
             dialogTexts.Add(new DialogData("Going Home"));
 
             DialogManager.Show(dialogTexts);
@@ -68,6 +70,8 @@ public class WinText : MonoBehaviour
         else
         {
             var dialogTexts = new List<DialogData>();
+
+            Application.Quit();
 
             dialogTexts.Add(new DialogData("Closing Game"));
 

@@ -15,11 +15,11 @@ public class DeathText : MonoBehaviour
     {
         var dialogTexts = new List<DialogData>();
 
-        dialogTexts.Add(new DialogData("Something about Failing", "Shipmate"));
+        dialogTexts.Add(new DialogData("Commander I have failed you.", "Shipmate"));
 
-        dialogTexts.Add(new DialogData("The alien race has won", "Deadmate"));
+        dialogTexts.Add(new DialogData("Commander I'm dying.", "Deadmate"));
         
-        dialogTexts.Add(new DialogData("Somebody boards the ship", "Alien"));
+        dialogTexts.Add(new DialogData("Loser", "Alien"));
 
         var Text1 = new DialogData("What do you want to do now?");
 
